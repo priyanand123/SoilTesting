@@ -1,0 +1,91 @@
+/* Page background */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #d1fae5, #a7f3d0);
+  padding: 1rem;
+}
+
+/* Card */
+.login-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Title */
+.login-title {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #065f46;
+  margin-bottom: 1.5rem;
+}
+
+/* Form groups */
+.login-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.login-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
+.login-form input,
+.login-form select {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.login-form input:focus,
+.login-form select:focus {
+  border-color: #10b981;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #10b981;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.login-btn:hover {
+  background-color: #059669;
+}
+
+/* Register text */
+.register-text {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.register-link {
+  color: #059669;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
