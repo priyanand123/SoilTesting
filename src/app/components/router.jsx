@@ -1,8 +1,8 @@
 // router.jsx
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import LoginPage from "../../../src/pages/Login/Loginpage";
-import { routePath } from "../../app/components/routepath";
+import LoginPage from "../../pages/Login/Loginpage";
+import { routePath } from "./routepath";
 
 // Helper for role-based redirect
 const PrivateRoute = ({ children, allowedRoles }) => {
@@ -18,6 +18,7 @@ const PrivateRoute = ({ children, allowedRoles }) => {
 const AppRoute = () => {
     return (
         <Router>
+             
             <Routes>
                 <Route path={routePath.login} element={<LoginPage />} />
 
@@ -25,6 +26,7 @@ const AppRoute = () => {
 
                 
             </Routes>
+            
         </Router>
     );
 };
